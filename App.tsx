@@ -1,8 +1,8 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { DollarSign, Package, TrendingUp, CheckCircle, Clock, ArrowRight, X, Settings, ShoppingCart, Pencil, Trash2, Database, RefreshCw } from 'lucide-react';
-import GoogleSheetsManager from './components/GoogleSheetsManager';
-import { TransactionRow } from './services/googleSheetsService';
+import GoogleSheetsManager from './src/components/GoogleSheetsManager';
+import { TransactionRow } from './src/services/googleSheetsService';
 
 // --- Type Definitions ---
 interface SettingsType {
